@@ -2,6 +2,7 @@ package edu.craptocraft.fastbreaktruck.behaviour;
 
 import edu.craptocraft.fastbreaktruck.domain.Desayuno;
 import edu.craptocraft.fastbreaktruck.domain.Eyeholes;
+import edu.craptocraft.fastbreaktruck.domain.TurbulentJuice;
 
 public class FastBreakTruck {
 
@@ -16,5 +17,4 @@ public class FastBreakTruck {
         return nuevoDesayuno;
 
     }
-    
 }

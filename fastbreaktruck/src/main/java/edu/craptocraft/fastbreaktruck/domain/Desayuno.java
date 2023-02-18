@@ -9,7 +9,7 @@ public class Desayuno {
     private Float total;
     private List<Item> items = new ArrayList<Item>();
 
-    Desayuno(){
+    public Desayuno(){
         // Evitar problemas
         this.total = 0f;
     }
@@ -31,4 +31,7 @@ public class Desayuno {
         this.setCoste(producto);
     }
     
+    public void mostrarItems(){
+        this.getItems().stream().forEach(producto -> System.out.println(producto.toString()));
+    }
 }
