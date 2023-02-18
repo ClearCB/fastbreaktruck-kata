@@ -2,6 +2,8 @@ package edu.craptocraft.fastbreaktruck.behaviour;
 
 import edu.craptocraft.fastbreaktruck.domain.Desayuno;
 import edu.craptocraft.fastbreaktruck.domain.Eyeholes;
+import edu.craptocraft.fastbreaktruck.domain.FleebJuice;
+import edu.craptocraft.fastbreaktruck.domain.Smiggles;
 import edu.craptocraft.fastbreaktruck.domain.TurbulentJuice;
 
 public class FastBreakTruck {
@@ -13,6 +15,16 @@ public class FastBreakTruck {
         Desayuno nuevoDesayuno = new Desayuno();
         nuevoDesayuno.addItem(new Eyeholes());
         nuevoDesayuno.addItem(new TurbulentJuice());
+
+        return nuevoDesayuno;
+
+    }
+
+    public static Desayuno prepararSmiggles(){
+        
+        Desayuno nuevoDesayuno = new Desayuno();
+        nuevoDesayuno.addItem(new Smiggles());
+        nuevoDesayuno.addItem(new FleebJuice());
 
         return nuevoDesayuno;
 

@@ -21,12 +21,10 @@ public class FastBreakTruckTest {
     @Test
     public void prepararSmigglesTest(){
 
-        Desayuno smiggles = FastBreakTruck.prepararEyeHoles();
+        Desayuno smiggles = FastBreakTruck.prepararSmiggles();
         assertNotNull(smiggles);
         assertEquals(2, smiggles.getItems().size());
 
     }
-
-
 
 }

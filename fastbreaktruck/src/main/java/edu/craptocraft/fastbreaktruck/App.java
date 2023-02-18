@@ -16,20 +16,20 @@ public class App {
         eyeDes.mostrarItems();
         System.out.print("Precio pedido: " + eyeDes.getCoste());
 
-        // // /**
-        // * Desayuno Smiggles
-        // */
+        /**
+        * Desayuno Smiggles
+        */
 
-        // Desayuno smigDes = FastBreakTruck.prepararSmiggles();
-        // System.out.println("\nSmiggles per als nins!");
-        // smigDes.mostrarItems();
-        // System.out.print("Precio pedido: " + smigDes.getCoste());
+        Desayuno smigDes = FastBreakTruck.prepararSmiggles();
+        System.out.println("\nSmiggles per als nins!");
+        smigDes.mostrarItems();
+        System.out.print("Precio pedido: " + smigDes.getCoste());
 
         // /**
         // * Plumbus
         // */
 
-        // eyeDes = FastBreakTruck.prepararEyeHoles();
+        eyeDes = FastBreakTruck.prepararEyeHoles();
         // FastBreakTruck.incluirJuguete(eyeDes);
         // System.out.println("\nEyeholes con plumbus!");
         // eyeDes.mostrarItems();
