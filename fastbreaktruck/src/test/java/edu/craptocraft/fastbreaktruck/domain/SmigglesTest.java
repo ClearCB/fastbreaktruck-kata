@@ -13,7 +13,7 @@ public class SmigglesTest {
     public static Item smiggles;
 
     @BeforeClass
-    public static void fleebJuiceCreate(){
+    public static void smigglesCreate(){
         smiggles = new Smiggles();
 
     }

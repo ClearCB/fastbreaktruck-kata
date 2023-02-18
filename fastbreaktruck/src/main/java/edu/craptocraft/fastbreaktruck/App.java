@@ -30,9 +30,9 @@ public class App {
         // */
 
         eyeDes = FastBreakTruck.prepararEyeHoles();
-        // FastBreakTruck.incluirJuguete(eyeDes);
-        // System.out.println("\nEyeholes con plumbus!");
-        // eyeDes.mostrarItems();
-        // System.out.print("Precio pedido: " + eyeDes.getCoste());
+        FastBreakTruck.incluirJuguete(eyeDes);
+        System.out.println("\nEyeholes con plumbus!");
+        eyeDes.mostrarItems();
+        System.out.print("Precio pedido: " + eyeDes.getCoste());
     }
 }

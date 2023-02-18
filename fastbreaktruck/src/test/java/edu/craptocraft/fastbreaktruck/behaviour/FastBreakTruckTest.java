@@ -27,4 +27,15 @@ public class FastBreakTruckTest {
 
     }
 
+    @Test
+    public void incluirJugueteTest(){
+
+        Desayuno eyeholes = FastBreakTruck.prepararEyeHoles();
+        assertNotNull(eyeholes);
+        FastBreakTruck.incluirJuguete(eyeholes);
+        assertEquals(3, eyeholes.getItems().size());
+
+
+    }
+
 }

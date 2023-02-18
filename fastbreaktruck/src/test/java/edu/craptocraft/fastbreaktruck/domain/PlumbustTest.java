@@ -8,20 +8,22 @@ import org.junit.Test;
 
 import edu.craptocraft.fastbreaktruck.behaviour.Item;
 
-public class TurbulentJuiceTest {
-    public static Item juice;
+public class PlumbustTest {
+
+    public static Item plumbus;
 
     @BeforeClass
-    public static void juiceCreate(){
-        juice = new TurbulentJuice();
+    public static void plumbusCreate(){
+        plumbus = new Plumbus();
 
     }
     
     @Test
     public void constructorTest(){
 
-        assertNotNull(juice);
-        assertEquals("Item: Turbulent Juice, Empaquetado: tubo, P.V.P: 1.0", juice.toString());
+        assertNotNull(plumbus);
+        assertEquals("Item: Plumbus, Empaquetado: caja, P.V.P: 100.0", plumbus.toString());
     }
 
+    
 }
